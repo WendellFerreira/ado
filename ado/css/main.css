@@ -1,0 +1,80 @@
+body
+{
+    background-image:url(../imagens/Painel.jpg);
+    width: auto;
+	height: auto;
+}
+.banner
+{
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 800px;
+	height: 300px;
+    align-items: center;
+    margin-top: 200px;
+    margin-left: 150px;
+}
+.banner h2
+{
+    font-size: 55px;
+    color: white;
+    padding: 20px;
+    padding-bottom: 2px;
+    margin-bottom: 5px;
+}
+.banner h3
+{
+    font-size: 30px;
+    color:coral;
+    padding-top: 2px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    margin-top: 5px;
+}
+.servicos
+{
+    padding: 5px;
+    padding-left: 20%;
+    padding-right: 20%;
+    margin-left: 5px;
+    background-color:rgba(227, 204, 173,1);
+}
+.servicos h2
+{
+    text-align: center;
+
+}
+.linha
+{
+    display: flex;
+    justify-content: space-evenly;
+}
+.item
+{
+    background-color: rgba(0, 0, 0, 0.3);
+    width: 45%;
+    max-height: max-content;
+    border-radius: 10px;
+    text-align: center;
+    margin: 10px;
+}
+.qmsomos
+{
+    padding: 5px;
+    padding-left: 20%;
+    padding-right: 20%;
+    margin-left: 5px;
+    background-color:rgba(227, 204, 173,1);
+    display: flex;
+}
+.qmsomos img
+{
+    width:400px;   
+}
+.qmsomos h2
+{
+    text-align: start;
+}
+.qmsomos p
+{
+    text-align: justify;
+}
